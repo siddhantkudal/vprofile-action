@@ -60,6 +60,7 @@ jobs:
           context: ./
           force_tag: true
           debug: true
+          tags: ${{ github.run_number }}
 
 
 
